@@ -1,0 +1,62 @@
+body {
+    background-color: whitesmoke;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4 {
+    color: #333;
+}
+.title {
+    text-align: center;
+    height: 0.5em;
+    color: #222222;
+    margin: 2em 0 4em 0;
+}
+.far {
+    font-size:1em;
+    color: #dddddd;
+}
+
+#carouselExampleFade {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.fullWidth {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.fullWidth img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.hideMe {
+    display: none;
+}
+#timer {
+    color: #fefefe;
+    position: absolute;
+    font-size: 3em;
+    top: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    padding: 30px;
+}
+.fullWidth>a {
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    left: -100px;
+}

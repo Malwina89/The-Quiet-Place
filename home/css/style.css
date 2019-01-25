@@ -1,0 +1,97 @@
+body {
+    background-color: whitesmoke;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+.title>h3 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+.far {
+    font-size:1em;
+    color: #dddddd;
+}
+.rooms {
+    padding: 50px;
+}
+.button {
+    color: #333333;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px 6px grey;
+
+}
+.button:active {
+    box-shadow: 1px 1px 2px grey;
+}
+.btn {
+    text-align: center;
+}
+a {
+    text-align: center;
+}
+a:hover {
+    color: #222222;
+    text-decoration: none;
+}
+span {
+     animation: blur 10s ease-out infinite;
+    -webkit-animation: blur 10s ease-out infinite;
+}
+
+span:nth-child(1) {
+    animation-delay: 0.1s;
+    -webkit-animation-delay: 0.1s;
+}
+span:nth-child(2) {
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+span:nth-child(3) {
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+}
+span:nth-child(4) {
+    animation-delay: 0.4s;
+    -webkit-animation-delay: 0.4s;
+}
+span:nth-child(5) {
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+span:nth-child(6) {
+    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+}
+span:nth-child(7) {
+    animation-delay: 0.7s;
+    -webkit-animation-delay: 0.7s;
+}
+
+@keyframes blur {
+    0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+    5%		{text-shadow:  0 0 90px #fff;}
+    15%		{opacity: 1;}
+    20%		{text-shadow:  0 0 0px #fff;}
+    80%		{text-shadow:  0 0 0px #fff;}
+    85%		{opacity: 1;}
+    95%		{text-shadow:  0 0 90px #fff;}
+    100%	{text-shadow:  0 0 100px #fff; opacity:0;}
+}
+
+/*@-webkit-keyframes blur {*/
+    /*0%		{text-shadow:  0 0 100px #fff; opacity:0;}*/
+    /*5%		{text-shadow:  0 0 90px #fff;}*/
+    /*15%		{opacity: 1;}*/
+    /*20%		{text-shadow:  0 0 0px #fff;}*/
+    /*80%		{text-shadow:  0 0 0px #fff;}*/
+    /*85%		{opacity: 1;}*/
+    /*95%		{text-shadow:  0 0 90px #fff;}*/
+    /*100%	{text-shadow:  0 0 100px #fff; opacity:0;}*/
+/*}*/
